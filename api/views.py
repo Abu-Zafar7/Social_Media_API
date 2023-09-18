@@ -10,8 +10,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
 def home(request):
-    return HttpResponse("Hello")
-
+    return HttpResponse("<h1>Hello! Welcome to my API</h1>")
 
 
 

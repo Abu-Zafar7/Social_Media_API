@@ -8,6 +8,6 @@
 - DELETE `/api/post/<str:pk>` - Delete a post.
 - GET `/api/all_posts` - Get all posts of the authenticated user.
 - GET `/api/get_post/<str:id>` - Get a particular post.
-- POST /api/like/post/<str:id> - Like a post.
-- POST /api/unlike/post/<str:id> - Unlike a post.
-- POST /api/comment/post/<str:id> - Add a comment to a post.
+- POST `/api/like/post/<str:id>` - Like a post.
+- POST `/api/unlike/post/<str:id>` - Unlike a post.
+- POST `/api/comment/post/<str:id>` - Add a comment to a post.
